@@ -5,20 +5,57 @@
 
     <title>TechStore</title>
     <link href="style.css" text="text/css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/86405e2c74.js"></script>
+    <!--Länk för att få in Json data i html document. Ska ev tas bort senare. Se nedan -->
+    <script type="text/javascript" language="javascript" src="jquery-1.8.2.min.js"></script>        
+    
     <!-- Visit www.fontawesome.com on how to add font icons to your project -->
     <!-- Link your stylesheet file/files, do NOT write styles in the html file! -->
   </head>
   <body>
-    <header>
+    <div id="header">
+        <div>Techstore</div>
+        <span></span>
+        <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div> 
 
+       
+
+       
+       
       <!-- Your header title and shopping cart button goes here  -->
-    </header>
+    </div>
 
     <div id="main">
       <!-- Add the content of your site here via javascript -->
 
-      <p>Denna gäller</p>
-      <p>Yes</p>
+       <!-- <h1>Kundvagn</h1>
+
+      <div id ="products">
+
+
+      <button onclick="positive()">Lägg i Varukorg</button>
+      </div>
+
+
+      <script>
+      
+      var count = 0;
+      var step = 1;
+
+      var span = document.querySelector("Span");
+
+      function positive (){
+        count = count + step
+        span.innerText = count;
+      }
+      
+      document.innerHTML(listOfProducts);
+      console.log(listOfProducts);
+      
+      
+      </script> -->
+
+
     </div>
 
     <script src="./script.js"></script>
