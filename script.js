@@ -39,41 +39,6 @@ document.body.appendChild(allProducts);
 
 
 
-/**document.write("<h1>Kundvagn</h1>");
-document.getElementById().innerHTML= listOfProducts; 
-document.write("<button>Lägg i varukorg</button>");
-document.write("<p>hej</p>");
-console.log(listOfProducts); 
-
-main.innerHTML = listOfProducts[0]; */
-//var mainDiv = document.getElementById('main');
-/** var index = 2;
-var aSingleProduct = listOfProducts[index];
-var image = aSingleProduct.image;
-main.innerHTML = '<img src=./assets/iPhoneX.png>';
-
-
-
-var index = 0;
-var aSingleProduct = listOfProducts[index];
-var title = aSingleProduct.title;
- 
-console.log(title);
-document.write(title);
-
-var index = 1;
-var aSingleProduct = listOfProducts[index];
-var description = aSingleProduct.description;
-document.write(description);
-
-/**var index = 2;
-var aSingleProduct = listOfProducts[index];
-var image = aSingleProduct.image;
-document.write("<img src=./assets/iPhoneX.png>"); */
-
-
-
-
 
 
 /* Leta efter ARRAY FÖR ATT FÅ FRAM PRODUKTERNA */
@@ -127,3 +92,50 @@ function createproductCard(listOfProducts) {
 
 /* Read the projects readme before you start! */
 /* Good luck and have fun 🤓 */
+
+
+
+
+
+
+
+
+
+//Gammal kod som jag fick hjälp med av David! SKa ev tas bort 2017-10-22
+
+
+/**document.write("<h1>Kundvagn</h1>");
+document.getElementById().innerHTML= listOfProducts; 
+document.write("<button>Lägg i varukorg</button>");
+document.write("<p>hej</p>");
+console.log(listOfProducts); 
+
+main.innerHTML = listOfProducts[0]; */
+//var mainDiv = document.getElementById('main');
+/** var index = 2;
+var aSingleProduct = listOfProducts[index];
+var image = aSingleProduct.image;
+main.innerHTML = '<img src=./assets/iPhoneX.png>';
+
+
+
+var index = 0;
+var aSingleProduct = listOfProducts[index];
+var title = aSingleProduct.title;
+ 
+console.log(title);
+document.write(title);
+
+var index = 1;
+var aSingleProduct = listOfProducts[index];
+var description = aSingleProduct.description;
+document.write(description);
+
+/**var index = 2;
+var aSingleProduct = listOfProducts[index];
+var image = aSingleProduct.image;
+document.write("<img src=./assets/iPhoneX.png>"); */
+
+
+
+

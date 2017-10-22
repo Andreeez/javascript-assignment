@@ -1,6 +1,6 @@
 body {
     margin: 0px 0px 0px 0px;
-    background-color: red;
+    
 }
 
 #header {
@@ -8,14 +8,25 @@ body {
     background-color: black;
     width: 100%;
     color: white;
+    
  
 } 
 
 #main {
     padding-top: 50px;
     background-color: red;
+    
 }
 
 #products {
     border: 1px solid black;
 } 
+
+div {
+    margin: auto;
+}
+
+img {
+    height: 200px;
+}
+
