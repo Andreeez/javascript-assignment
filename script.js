@@ -20,41 +20,32 @@ function createUIFromLoadedProducts() {
 //var main = document.querySelector("#main");
 var main = document.getElementById("main");
 
-var allProducts = document.createElement("div");
+    var allProducts = document.createElement("div");
 
-allProducts.className = "allProductsClass";
+    allProducts.className = "allProductsClass";
 
 for(var index=0; index <listOfProducts.length; index++) {
 
     var productCard = createproductCard(listOfProducts[index]);
+    //main.appendChild(productCard);
     allProducts.appendChild(productCard);
 
 } 
 
+//document.body.appendChild(main);
 document.body.appendChild(allProducts);
 
 
-
-
-
-
-
-
-
+//davids info kod
 /* Leta efter ARRAY FÖR ATT FÅ FRAM PRODUKTERNA */
-
-
 /* var ulElement =  */
-
-
-
     /* Add your code here, remember to brake your code in to
     smaller function blocks to reduce complexity and increase readability */
-
     /* Each function must have an explainetory comment like the one for this function, see row 15 */
-    
     /* Feel free to remove these other comments */
 }
+
+
 
 
 function createproductCard(listOfProducts) {
@@ -79,16 +70,49 @@ function createproductCard(listOfProducts) {
 
     //Price
     var getProductPrice = document.createElement("h3");
-    getProductPrice.innerText=listOfProducts.price;
+    getProductPrice.innerText=listOfProducts.price + "  Kr";
     productCard.appendChild(getProductPrice);
+
+    //Add Button
+    var buttonAdd = document.createElement("button");
+    buttonAdd.onclick = function() {positive()};
+    buttonAdd.innerText= "Lägg till i kundvagn";
+    productCard.appendChild(buttonAdd);
+
+    
+    
+   
+  
+    
+     /**<button onclick="positive()">Lägg i Varukorg</button>
+    document.innerHTML(listOfProducts);
+    console.log(listOfProducts); */
+    
+    
 
 
 
     return productCard;
-
+   
 
 
 }
+
+//Create function on button. When click add 1 product (showed in header) 
+var count = 0;
+var step = 1;
+
+var span = document.querySelector("span");
+var positive
+
+function positive (){
+    count = count + step
+    span.innerText = count;
+    alert("1 produkt har lagts till");
+  }
+
+
+
 
 /* Read the projects readme before you start! */
 /* Good luck and have fun 🤓 */

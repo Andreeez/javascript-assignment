@@ -8,25 +8,39 @@ body {
     background-color: black;
     width: 100%;
     color: white;
+    position: fixed;
     
  
 } 
 
-#main {
-    padding-top: 50px;
-    background-color: red;
-    
+.shoppingcart-logo {
+    float: right;
+    margin-right: 10px;
 }
 
-#products {
-    border: 1px solid black;
-} 
-
-div {
-    margin: auto;
+#main {
+    
+    text-align: center;
+    
+    
 }
 
 img {
     height: 200px;
 }
 
+
+.allProductsClass {
+    padding-top: 50px;
+    height: 350px;
+    text-align: center;
+    background-color: grey;
+   
+    
+}
+
+@media (max-width: 600px) {
+    #main {
+        flex-flow: row;
+    }
+}
