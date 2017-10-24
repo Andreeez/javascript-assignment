@@ -1,5 +1,6 @@
 body {
     margin: 0px 0px 0px 0px;
+    font-family: helvetica, sans-serif;
     
 }
 
@@ -8,20 +9,22 @@ body {
     background-color: black;
     width: 100%;
     color: white;
-    position: fixed;
-    
+    position: fixed; 
  
 } 
 
+a {
+    text-decoration: none;
+}
+
 .shoppingcart-logo {
-    float: right;
+    
     margin-right: 10px;
 }
 
 #main {
     
     text-align: center;
-    
     
 }
 
@@ -34,13 +37,27 @@ img {
     padding-top: 50px;
     height: 350px;
     text-align: center;
-    background-color: grey;
-   
-    
+    background-color: #F5F5F5;  
 }
 
-@media (max-width: 600px) {
-    #main {
-        flex-flow: row;
-    }
+button {
+    background-color: #5596F5;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 10px 10px;
+   
 }
+#main-shoppingcart {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/*@media (max-width: 600px) {
+    body {
+        flex-flow: row;
+        width: 100%;
+    }
+}*/

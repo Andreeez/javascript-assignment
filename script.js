@@ -80,22 +80,11 @@ function createproductCard(listOfProducts) {
     productCard.appendChild(buttonAdd);
 
     
-    
-   
-  
-    
      /**<button onclick="positive()">Lägg i Varukorg</button>
     document.innerHTML(listOfProducts);
     console.log(listOfProducts); */
-    
-    
-
-
-
     return productCard;
    
-
-
 }
 
 //Create function on button. When click add 1 product (showed in header) 
@@ -111,18 +100,8 @@ function positive (){
     alert("1 produkt har lagts till");
   }
 
-
-
-
 /* Read the projects readme before you start! */
 /* Good luck and have fun 🤓 */
-
-
-
-
-
-
-
 
 
 //Gammal kod som jag fick hjälp med av David! SKa ev tas bort 2017-10-22
