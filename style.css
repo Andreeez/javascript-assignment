@@ -1,25 +1,38 @@
 body {
     margin: 0px 0px 0px 0px;
     font-family: helvetica, sans-serif;
+   
     
 }
 
 #header {
-    height: 50px;
-    background-color: black;
+    height: 80px;
+    background-color: #212121;
     width: 100%;
     color: white;
     position: fixed; 
+    align-items: center;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    
  
 } 
 
 a {
     text-decoration: none;
+    color: white;
 }
 
-.shoppingcart-logo {
+h1 {
+    margin-left: 20px;
+}
+.shoppingcart-logo {    
+    margin-right: 20px;
+    font-size: 30px;
     
-    margin-right: 10px;
+   
+    
 }
 
 #main {
@@ -33,21 +46,21 @@ img {
 }
 
 
+
 .allProductsClass {
-    padding-top: 50px;
+    padding-top: 80px;
     height: 350px;
     text-align: center;
-    background-color: #F5F5F5;  
+    /*background-color: #F5F5F5;  */
 }
 
 button {
     background-color: #5596F5;
     color: white;
     border: none;
-    text-decoration: none;
-    border-radius: 12px;
+    border-radius: 4px;
     font-size: 15px;
-    padding: 10px 10px;
+    padding: 15px;
    
 }
 #main-shoppingcart {

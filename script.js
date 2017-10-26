@@ -76,7 +76,7 @@ function createproductCard(listOfProducts) {
     //Add Button
     var buttonAdd = document.createElement("button");
     buttonAdd.onclick = function() {positive()};
-    buttonAdd.innerText= "Lägg till i kundvagn";
+    buttonAdd.innerHTML= '<i class="fa fa-shopping-cart" aria-hidden="true"></i>' + "Lägg till i varukorg";
     productCard.appendChild(buttonAdd);
 
     
@@ -92,7 +92,7 @@ var count = 0;
 var step = 1;
 
 var span = document.querySelector("span");
-var positive
+var positive;
 
 function positive (){
     count = count + step
