@@ -4,7 +4,7 @@ body {
    
     
 }
-
+/*Header styling */
 #header {
     height: 80px;
     background-color: #212121;
@@ -35,9 +35,12 @@ h1 {
     
 }
 
+/*Main styling*/
+
 #main {
     
     text-align: center;
+  
     
 }
 
@@ -47,12 +50,17 @@ img {
 
 
 
+
 .allProductsClass {
     padding-top: 80px;
-    height: 350px;
+    height: 100%;
     text-align: center;
-    /*background-color: #F5F5F5;  */
-}
+   
+   
+
+} 
+
+
 
 button {
     background-color: #5596F5;
@@ -68,9 +76,3 @@ button {
     text-align: center;
 }
 
-/*@media (max-width: 600px) {
-    body {
-        flex-flow: row;
-        width: 100%;
-    }
-}*/

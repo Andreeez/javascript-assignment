@@ -36,9 +36,7 @@ for(var index=0; index <listOfProducts.length; index++) {
 document.body.appendChild(allProducts);
 
 
-//davids info kod
-/* Leta efter ARRAY FÖR ATT FÅ FRAM PRODUKTERNA */
-/* var ulElement =  */
+
     /* Add your code here, remember to brake your code in to
     smaller function blocks to reduce complexity and increase readability */
     /* Each function must have an explainetory comment like the one for this function, see row 15 */
@@ -47,7 +45,7 @@ document.body.appendChild(allProducts);
 
 
 
-
+//Create structure for loading products on site
 function createproductCard(listOfProducts) {
     var productCard = document.createElement ("div")
     productCard.classname ="allProductsClass";
@@ -80,9 +78,6 @@ function createproductCard(listOfProducts) {
     productCard.appendChild(buttonAdd);
 
     
-     /**<button onclick="positive()">Lägg i Varukorg</button>
-    document.innerHTML(listOfProducts);
-    console.log(listOfProducts); */
     return productCard;
    
 }
@@ -104,40 +99,7 @@ function positive (){
 /* Good luck and have fun 🤓 */
 
 
-//Gammal kod som jag fick hjälp med av David! SKa ev tas bort 2017-10-22
 
-
-/**document.write("<h1>Kundvagn</h1>");
-document.getElementById().innerHTML= listOfProducts; 
-document.write("<button>Lägg i varukorg</button>");
-document.write("<p>hej</p>");
-console.log(listOfProducts); 
-
-main.innerHTML = listOfProducts[0]; */
-//var mainDiv = document.getElementById('main');
-/** var index = 2;
-var aSingleProduct = listOfProducts[index];
-var image = aSingleProduct.image;
-main.innerHTML = '<img src=./assets/iPhoneX.png>';
-
-
-
-var index = 0;
-var aSingleProduct = listOfProducts[index];
-var title = aSingleProduct.title;
- 
-console.log(title);
-document.write(title);
-
-var index = 1;
-var aSingleProduct = listOfProducts[index];
-var description = aSingleProduct.description;
-document.write(description);
-
-/**var index = 2;
-var aSingleProduct = listOfProducts[index];
-var image = aSingleProduct.image;
-document.write("<img src=./assets/iPhoneX.png>"); */
 
 
 
